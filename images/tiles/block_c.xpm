@@ -1,0 +1,26 @@
+/* XPM */
+static char *CircularBlock[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1",
+"  c #FF3800",
+". c #FF6100",
+"X c #FF6D00",
+"o c gray100",
+/* pixels */
+"ooooooo  ooooooo",
+"ooooo  ..  ooooo",
+"ooo  ..XX..  ooo",
+"oo ..XXXXXX.. oo",
+"o .XXXXXXXXXX. o",
+"o .XXXXXXXXXX. o",
+" .XXXXXXXXXXXX. ",
+" .XXXXXXXXXXXX. ",
+" .XXXXXXXXXXXX. ",
+" .XXXXXXXXXXXX. ",
+"o .XXXXXXXXXX. o",
+"o .XXXXXXXXXX. o",
+"oo ..XXXXXX.. oo",
+"ooo  ..XX..  ooo",
+"ooooo  ..  ooooo",
+"ooooooo  ooooooo"
+};

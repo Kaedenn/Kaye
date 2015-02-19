@@ -1,0 +1,23 @@
+
+<!ELEMENT Scheme (SHead, SBody, STail) >
+
+<!ELEMENT SHead (SName, SDescription, SWinMessage, SLoseMessage) >
+<!ELEMENT SName (#PCDATA) >
+<!ELEMENT SDescription (#PCDATA) >
+<!ELEMENT SWinMessage (#PCDATA) >
+<!ELEMENT SLoseMessage (#PCDATA) >
+
+<!ELEMENT SBody (Level+) >
+<!ELEMENT Level (LHead, LBody, LTail) >
+<!ELEMENT LHead (LName, LHint, LWinMessage, LLoseMessage) >
+<!ELEMENT LName (#PCDATA) >
+<!ELEMENT LHint (#PCDATA) >
+<!ELEMENT LWinMessage (#PCDATA) >
+<!ELEMENT LLoseMessage (#PCDATA) >
+<!ELEMENT LBody (#CDATA) >
+<!ELEMENT LTail (Event*) >
+<!ELEMENT Event EMPTY >
+<!ATTLIST Event kind (sign) >
+
+<!ELEMENT STail EMPTY >
+

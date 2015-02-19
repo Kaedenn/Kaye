@@ -1,0 +1,62 @@
+1.1.0:
+  * first final release
+  * fixed:
+    graphics:
+      sign, keyed-block
+  * level editor will not be incorporated into the program itself; the edit
+    option in the file menu will be removed and the editor will be released as a
+    separate program
+
+1.0.0:
+  * first actual release
+  * fixed:
+    events:
+      signs are finished
+    graphics:
+      new splash screen
+  * todo:
+    editor:
+      begin work in the level editor
+      begin work on a tutorial for editing levels
+    graphics:
+      get images for the following tiles:
+        sign, keyed-block
+
+0.9.0 BETA:
+  * first beta release
+  * fixed:
+    module animator.py:
+      movement of Kye finished
+      movement of beats finished: beasts move towards Kye or randomly if blocked
+  * todo:
+    package tiles:
+      clean up the mess of intra-package dependencies and imports
+      make the importing of submodules (from modules outside this package) much
+        cleaner
+      provide a single interface to the entire package, rather than the multiple
+        interfaces I have now (tiles.tiles, tiles.tables.tiles, etc)
+    events:
+      begin implementing the event system:
+        signs, kye triggers, object triggers
+    graphics:
+      get a better splash screen that works with the new game
+      get images for the following tiles:
+        sign
+        keyed-block
+      get better tile images for existing tiles
+
+0.1.0 ALPHA:
+  * first alpha release
+  * todo:
+    module animator.py:
+      finish movement of Kye: add support for magnets and pushing objects
+      finish movement of beasts: make them move semi-intelligently towards Kye
+    package tiles:
+      clean up the mess of intra-package dependencies and imports
+      make the importing of submodules (from modules outside this package) much
+        cleaner
+      provide a single interface to the entire package, rather than the multiple
+        interfaces I have now (tiles.tiles, tiles.tables.tiles, etc)
+    animation:
+      begin support for triggers and events
+

@@ -1,0 +1,31 @@
+/* XPM */
+static char *UpwardRockifier[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 9 1",
+"  c #005900",
+". c #310084",
+"X c #4200B5",
+"o c #00AE00",
+"O c #940000",
+"+ c #BD0000",
+"@ c #DE0000",
+"# c red",
+"$ c gray100",
+/* pixels */
+"  $$$$$$$$$$$$  ",
+" o $$$$$$$$$$ o ",
+" oo  $$$$$$  oo ",
+" oooo  $$  oooo ",
+" oX.ooo  ooo.Xo ",
+" ooX.oooooo.Xoo ",
+"O ooX.oooo.Xoo O",
+"O+ ooX.oo.Xoo +O",
+"O+@ ooX..Xoo @+O",
+"O+@# ooXXoo #@+O",
+"$O+@# oooo #@+O$",
+"$O+@# oooo #@+O$",
+"$$O+@@ oo @@+O$$",
+"$$$O++ oo ++O$$$",
+"$$$$OO+  +OO$$$$",
+"$$$$$$O  O$$$$$$"
+};

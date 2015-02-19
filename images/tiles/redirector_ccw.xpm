@@ -1,0 +1,25 @@
+/* XPM */
+static char *CCWRedirector[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c #005900",
+". c #00AE00",
+"X c gray100",
+/* pixels */
+"XXX          XXX",
+"XX .......... XX",
+"X ...      ... X",
+"X .. XXXXXX .. X",
+" .. XXXXXXXX .. ",
+" .. X XXXXXX .. ",
+" .. X  XXXXX    ",
+" .. X . XXXXXXXX",
+" ...  .. XXXXXXX",
+"X ... ... XXXXXX",
+"XX  ...... XXXXX",
+"XXXX  ... XXXXXX",
+"XXXXX .. XXXXXXX",
+"XXXXX . XXXXXXXX",
+"XXXXX  XXXXXXXXX",
+"XXXXX XXXXXXXXXX"
+};

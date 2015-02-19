@@ -1,0 +1,33 @@
+/* XPM */
+static char *UnstableTNT[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 11 1",
+"  c black",
+". c #AD0000",
+"X c red",
+"o c #FF7D08",
+"O c #FF9608",
+"+ c #FFC308",
+"@ c #FFDF00",
+"# c #FFEB08",
+"$ c #848284",
+"% c #C6C3C6",
+"& c gray100",
+/* pixels */
+"&&&&&&&&%$%$&&&&",
+"&&&&&&&%$%$%$&&&",
+"&&&&&&&$%%&$%&&&",
+"&&&...    .%$&&&",
+"&&.XXXXXXXX$%.&&",
+"&.XXXXXXXXX%$X.&",
+"&.XXXXXXXXX$%X.&",
+"&.XX@@@@@@@$%X.&",
+"&.XX@@@@@@@%$X.&",
+"&.XXXXX@@XX$%X.&",
+"&.XXXXX@@XX+#X.&",
+"&.XXXXX@@XO+#O.&",
+"&.XXXXX@@Xo++O.&",
+"&.XXXXXXXXoO+o.&",
+"&&.XXXXXXXXoO.&&",
+"&&&.........o&&&"
+};

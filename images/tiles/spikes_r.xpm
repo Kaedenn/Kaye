@@ -1,0 +1,25 @@
+/* XPM */
+static char *RetractedSpikes[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c black",
+". c #424142",
+"X c #636163",
+/* pixels */
+"................",
+".XXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XX   XXXX   XX.",
+".X     XX     X.",
+".XX   XXXX   XX.",
+".XXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XX   XXXX   XX.",
+".X     XX     X.",
+".XX   XXXX   XX.",
+".XXXXXXXXXXXXXX.",
+"................"
+};

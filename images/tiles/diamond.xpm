@@ -1,0 +1,29 @@
+/* XPM */
+static char *Diamond[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 7 1",
+"  c #00B6BD",
+". c #00D3DE",
+"X c #00E7EF",
+"o c #10F7FF",
+"O c #B5FFFF",
+"+ c #CEFFFF",
+"@ c gray100",
+/* pixels */
+"@@@@@@@Xo@@@@@@@",
+"@@@@@@XXoo@@@@@@",
+"@@@@@XXXoOo@@O@@",
+"@@@@XXXXooo+@@@@",
+"@@@XXXXXooO++@@@",
+"@@XXXXXXoooOoo@@",
+"@XXXXXXXoOoooOo@",
+"XXXXXXXXoooooooo",
+"        ........",
+"@       .......@",
+"@@      ......@@",
+"@@@     .....@@@",
+"@@@@    ....@@@@",
+"@@@@@   ...@@@@@",
+"@@@@@@  ..@@@@@@",
+"@@@@@@@ .@@@@@@@"
+};

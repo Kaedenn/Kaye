@@ -1,0 +1,31 @@
+/* XPM */
+static char *Earth[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 9 1",
+"  c #633818",
+". c #424142",
+"X c #BD6D29",
+"o c #C67129",
+"O c #D67931",
+"+ c #D68642",
+"@ c #DE925A",
+"# c #848284",
+"$ c gray100",
+/* pixels */
+"$$$$$$oooo$$$$$$",
+"$$$$oo++++oo$$$$",
+"$$oo++OOOO++oo$$",
+"$o++OO@@@@OO++o$",
+"o+OO@@@@@@@@OO+o",
+"o+O@X X@@X X@O+o",
+"o+O@@X XX X@@O+o",
+"o+O@@@X  X@@@O+o",
+"o+O@@X XX X@@O+o",
+"o+O@X X@@X X@O+o",
+"o+OO@@@@@@@@OO+o",
+".o++OO@@@@OO++o.",
+".#oo++OOOO++oo#.",
+"$#.#oo++++oo#.#$",
+"$..#.#oooo#.#..$",
+"$$$..........$$$"
+};

@@ -1,0 +1,25 @@
+/* XPM */
+static char *HorizontalLazer[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c #800000",
+". c red",
+"X c gray100",
+/* pixels */
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"X.XXX.XXX.XXX.XX",
+". .X. .X. .X. .X",
+"                ",
+"                ",
+"X. .X. .X. .X. .",
+"XX.XXX.XXX.XXX.X",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX"
+};

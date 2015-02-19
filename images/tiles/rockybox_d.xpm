@@ -1,0 +1,31 @@
+/* XPM */
+static char *DownwardRockifier[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 9 1",
+"  c #005900",
+". c #310084",
+"X c #4200B5",
+"o c #00AE00",
+"O c #940000",
+"+ c #BD0000",
+"@ c #DE0000",
+"# c red",
+"$ c gray100",
+/* pixels */
+"$$$$$$O  O$$$$$$",
+"$$$$OO+  +OO$$$$",
+"$$$O++ oo ++O$$$",
+"$$O+@@ oo @@+O$$",
+"$O+@# oooo #@+O$",
+"$O+@# oooo #@+O$",
+"O+@# ooXXoo #@+O",
+"O+@ ooX..Xoo @+O",
+"O+ ooX.oo.Xoo +O",
+"O ooX.oooo.Xoo O",
+" ooX.oooooo.Xoo ",
+" oX.ooo  ooo.Xo ",
+" oooo  $$  oooo ",
+" oo  $$$$$$  oo ",
+" o $$$$$$$$$$ o ",
+"  $$$$$$$$$$$$  "
+};

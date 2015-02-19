@@ -1,0 +1,29 @@
+/* XPM */
+static char *Explosion[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 7 1",
+"  c #FF2C00",
+". c #FF5100",
+"X c #FF7900",
+"o c #FFB600",
+"O c #FFDB00",
+"+ c #FFEB6B",
+"@ c gray100",
+/* pixels */
+"    @@@@@@@@    ",
+"  .   @XX@   .  ",
+" .. X  XX  X .. ",
+"   .XXooooXX.   ",
+"@ XXXXooooXXXX @",
+"@  XXXOooOXXX  @",
+"@@ ooOOOOOOoo @@",
+"@XXoooO++OoooXX@",
+"@XXoooO++OoooXX@",
+"@@ ooOOOOOOoo @@",
+"@  XXXOooOXXX  @",
+"@ XXXXooooXXXX @",
+"   .XXooooXX.   ",
+" .. X  XX  X .. ",
+"  .   @XX@   .  ",
+"    @@@@@@@@    "
+};

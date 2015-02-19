@@ -1,0 +1,30 @@
+/* XPM */
+static char *BlackHole[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 8 1",
+"  c #101410",
+". c #181C18",
+"X c #313031",
+"o c #525552",
+"O c #848284",
+"+ c #A5A6A5",
+"@ c #C6C3C6",
+"# c gray100",
+/* pixels */
+"#@@@@@@@@@@@@@@#",
+"@++++++++++++++@",
+"@+OOOOOOOOOOOO+@",
+"@+OooooooooooO+@",
+"@+OoXXXXXXXXoO+@",
+"@+OoX. . . XoO+@",
+"@+OoX     .XoO+@",
+"@+OoX.     XoO+@",
+"@+OoX     .XoO+@",
+"@+OoX.     XoO+@",
+"@+OoX . . .XoO+@",
+"@+OoXXXXXXXXoO+@",
+"@+OooooooooooO+@",
+"@+OOOOOOOOOOOO+@",
+"@++++++++++++++@",
+"#@@@@@@@@@@@@@@#"
+};

@@ -1,0 +1,29 @@
+/* XPM */
+static char *TNTPlunger[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 7 1",
+"  c black",
+". c #AD0000",
+"X c red",
+"o c #FFEB00",
+"O c #848284",
+"+ c #C6C3C6",
+"@ c gray100",
+/* pixels */
+"@@............@@",
+"@@.XXXXXXXXXX.@@",
+"@@............@@",
+"@@@@@@@O+@@@@@@@",
+"@@@@@@@O+@@@@@@@",
+"@@@@@@@O+@@@@@@@",
+".......O+.......",
+".XXXXX OO XXXXX.",
+".XXXXXX  XXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XoooXooXoXoooX.",
+".XXoXXooXoXXoXX.",
+".XXoXXoXooXXoXX.",
+".XXoXXoXXoXXoXX.",
+".XXXXXXXXXXXXXX.",
+"................"
+};

@@ -1,0 +1,28 @@
+/* XPM */
+static char *CircularWall[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1",
+"  c #5A595A",
+". c #848284",
+"X c #9C9A9C",
+"o c #C6C3C6",
+"O c #E7E7E7",
+"+ c gray100",
+/* pixels */
+"++++++XXXX++++++",
+"++++XXXOOXXX++++",
+"+++XXOOOOOOXX+++",
+"++XXOOOOOOOOXX++",
+"+XX XOOOOOOXoXX+",
+"+X   XOOOOXoooX+",
+"XX    XOOXooooXX",
+"X      XXooooooX",
+"X      XXooooooX",
+"XX    X..XooooXX",
+"+X   X....XoooX+",
+"+XX X......XoXX+",
+"++XX........XX++",
+"+++XX......XX+++",
+"++++XXX..XXX++++",
+"++++++XXXX++++++"
+};

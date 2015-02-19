@@ -1,0 +1,27 @@
+/* XPM */
+static char *VerticalMagnet[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1",
+"  c #A50000",
+". c #F70000",
+"X c #808080",
+"o c #C0C0C0",
+"O c gray100",
+/* pixels */
+"XXooOOOOOOOOXXoo",
+"XXooOOOOOOOOXXoo",
+" .. OOOOOOOO .. ",
+" ... OOOOOO ... ",
+"O .. OOOOOO .. O",
+"O ... OOOO ... O",
+"OO ...    ... OO",
+"OOO ........ OOO",
+"OOO ........ OOO",
+"OO ...    ... OO",
+"O ... OOOO ... O",
+"O .. OOOOOO .. O",
+" ... OOOOOO ... ",
+" .. OOOOOOOO .. ",
+"XXooOOOOOOOOXXoo",
+"XXooOOOOOOOOXXoo"
+};

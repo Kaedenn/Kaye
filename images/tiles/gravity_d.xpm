@@ -1,0 +1,25 @@
+/* XPM */
+static char *GravityDown[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c #006510",
+". c #00EF21",
+"X c gray100",
+/* pixels */
+"XX           XXX",
+"XX ......... XXX",
+"XX .XXXXXXX. XXX",
+"XX .XXXXXXXXXXXX",
+"XX .XXXXX     XX",
+"XX .XXXXX.....XX",
+"XX .XXXXXXX. XXX",
+"XX ......... XXX",
+"XX     .     XXX",
+"XXXXXX . XXXXXXX",
+"XXXXXX . XXXXXXX",
+"XXX    .    XXXX",
+"XXXX  ...  XXXXX",
+"XXXXX  .  XXXXXX",
+"XXXXXX   XXXXXXX",
+"XXXXXXX XXXXXXXX"
+};

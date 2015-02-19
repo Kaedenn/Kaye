@@ -1,0 +1,25 @@
+/* XPM */
+static char *ExtraLife[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c #FF18C6",
+". c #EAEAEA",
+"X c gray100",
+/* pixels */
+"XXXXXXXXX    XXX",
+"XXXXXXXX ... XXX",
+"XXXXXXXX   . XXX",
+"XXXXXXXX   . XXX",
+"XXX  XXXXX . XXX",
+"XXX .XXXXX   XXX",
+"XXX .XXXXX   XXX",
+"    ... XX   XXX",
+"        XX   XXX",
+"XXX  XXXXX   XXX",
+"XXX  XXXXX   XXX",
+"XXX  XXXXX   XXX",
+"XXXXXXXXXX   XXX",
+"XXXXXXXXXX   XXX",
+"XXXXXXX     ... ",
+"XXXXXXX         "
+};

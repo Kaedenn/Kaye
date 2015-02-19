@@ -1,0 +1,31 @@
+/* XPM */
+static char *DownRocky[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 9 1",
+"  c #310084",
+". c #4200B5",
+"X c #6304FF",
+"o c #940000",
+"O c #BD0000",
+"+ c #DE0000",
+"@ c red",
+"# c #FF2421",
+"$ c gray100",
+/* pixels */
+"$$$$$$oooo$$$$$$",
+"$$$$ooOOOOoo$$$$",
+"$$$oOO++++OOo$$$",
+"$$oO++@@@@++Oo$$",
+"$oO+@@####@@+Oo$",
+"$oO+@######@+Oo$",
+"oO+@        @+Oo",
+"oO+@ .XXXX. @+Oo",
+"oO+@# .XX. #@+Oo",
+"oO+@## .. ##@+Oo",
+"$oO+@##  ##@+Oo$",
+"$oO+@@####@@+Oo$",
+"$$oO++@@@@++Oo$$",
+"$$$oOO++++OOo$$$",
+"$$$$ooOOOOoo$$$$",
+"$$$$$$oooo$$$$$$"
+};

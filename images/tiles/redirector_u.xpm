@@ -1,0 +1,25 @@
+/* XPM */
+static char *UpwardRedirector[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c #005900",
+". c #00AE00",
+"X c gray100",
+/* pixels */
+"XXXXXXX  XXXXXXX",
+"XXXXXXX  XXXXXXX",
+"XXXXXX .. XXXXXX",
+"XXXXXX .. XXXXXX",
+"XXXXX .... XXXXX",
+"XXXXX .... XXXXX",
+"XXXX ...... XXXX",
+"XXX ........ XXX",
+"XX .......... XX",
+"X .....  ..... X",
+" ..... XX ..... ",
+" .... XXXX .... ",
+" ... XXXXXX ... ",
+" .. XXXXXXXX .. ",
+" . XXXXXXXXXX . ",
+"  XXXXXXXXXXXX  "
+};

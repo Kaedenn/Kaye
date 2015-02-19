@@ -1,0 +1,28 @@
+/* XPM */
+static char *Spikes[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1",
+"  c black",
+". c #424142",
+"X c #636163",
+"o c #B5B2B5",
+"O c #C6C3C6",
+"+ c #E7E3E7",
+/* pixels */
+"....+......+....",
+".XXX+XXXXXX+XXX.",
+".XXOO+XXXXOO+XX.",
+".XXoO+XXXXoO+XX.",
+".X ooO XX ooO X.",
+".XX   XXXX   XX.",
+".XXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXX.",
+".XXX+XXXXXX+XXX.",
+".XXX+XXXXXX+XXX.",
+".XXOO+XXXXOO+XX.",
+".XXoO+XXXXoO+XX.",
+".X ooO XX ooO X.",
+".XX   XXXX   XX.",
+".XXXXXXXXXXXXXX.",
+"................"
+};

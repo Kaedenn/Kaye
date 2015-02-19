@@ -1,0 +1,25 @@
+/* XPM */
+static char *VerticalLazer[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c #800000",
+". c red",
+"X c gray100",
+/* pixels */
+"XXXXXXX  .XXXXXX",
+"XXXXXX.   .XXXXX",
+"XXXXX.   .XXXXXX",
+"XXXXXX.  XXXXXXX",
+"XXXXXXX  .XXXXXX",
+"XXXXXX.   .XXXXX",
+"XXXXX.   .XXXXXX",
+"XXXXXX.  XXXXXXX",
+"XXXXXXX  .XXXXXX",
+"XXXXXX.   .XXXXX",
+"XXXXX.   .XXXXXX",
+"XXXXXX.  XXXXXXX",
+"XXXXXXX  .XXXXXX",
+"XXXXXX.   .XXXXX",
+"XXXXX.   .XXXXXX",
+"XXXXXX.  XXXXXXX"
+};

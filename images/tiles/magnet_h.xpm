@@ -1,0 +1,27 @@
+/* XPM */
+static char *HorizontalMagnet[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1",
+"  c #A50000",
+". c #F70000",
+"X c #808080",
+"o c #C0C0C0",
+"O c gray100",
+/* pixels */
+"oo  OOOOOOOO  oo",
+"oo..  OOOO  ..oo",
+"XX.... OO ....XX",
+"XX ....  .... XX",
+"OOO  ......  OOO",
+"OOOOO .... OOOOO",
+"OOOOOO .. OOOOOO",
+"OOOOOO .. OOOOOO",
+"OOOOOO .. OOOOOO",
+"OOOOOO .. OOOOOO",
+"OOOOO .... OOOOO",
+"OOO  ......  OOO",
+"oo ....  .... oo",
+"oo.... OO ....oo",
+"XX..  OOOO  ..XX",
+"XX  OOOOOOOO  XX"
+};
