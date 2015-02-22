@@ -1,17 +1,15 @@
 #!/usr/bin/env python
 
-from source.tiles import _ddict
-
 # id -> attributes...
 tiles = {}
 # name -> id
 names = {}
 
-layers = _ddict.ddict({
+layers = {
   "below" : 0,
   "normal" : 1,
   "above" : 2,
-})
+}
 
 def _gentile(name, id, layer):
   tiles[id] = {
