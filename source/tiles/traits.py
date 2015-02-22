@@ -50,7 +50,7 @@ def covered(stack, layer = tables.layers["above"]):
 def surrounded(board, row, col):
   drdc = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
   for r, c in drdc:
-    if passable_obj(board[row + r][row + c]):
+    if passable_obj(board[row + r][col + c]):
       return False
   return True
 

@@ -26,10 +26,10 @@ class _Dir(dict):
       "right" : 3
     }
     super(_Dir, self).__init__(**self._dirs)
-  
+
   def __len__(self):
     return len(self._dirs) - 1
-  
+
   def choice(self):
     return random.choice(xrange(len(self)))
 
