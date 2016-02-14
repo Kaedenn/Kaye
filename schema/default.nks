@@ -46,5 +46,33 @@
       And here's a sign!
     </sign>
   </level>
-  
+  <level name="Diamonds a Plenty">
+    <hint>This level shouldn't be too difficult. Beware the explosives.</hint>
+    <complete>That was the very last diamond! Good job!</complete>
+    <lose>Too many diamonds for you?</lose>
+    <tiles><![CDATA[
+    ]]></tiles>
+  </level>
+  <level name="Field of Spikes">
+    <hint>Be patient, and whatever you do, don't get greedy!</hint>
+    <complete>And you escaped the field of spikes!</complete>
+    <lose>Too many spikes for you?</lose>
+    <tiles><![CDATA[
+    ]]></tiles>
+  </level>
+  <level name="Hearts in Space">
+    <hint>This level will be difficult. You will need that H-magnet...</hint>
+    <complete>You only have one more level to go!</complete>
+    <lose>Try again!</lose>
+    <tiles><![CDATA[
+    ]]></tiles>
+  </level>
+  <level name="Magnetic Annoyance">
+    <hint>It is possible to solve this level, trust me. Good luck.</hint>
+    <complete>That was the very last diamond! Good job!</complete>
+    <lose>How... did you lose?</lose>
+    <tiles><![CDATA[
+    ]]></tiles>
+  </level>
+
 </scheme>

@@ -27,16 +27,15 @@ from source import tiles
 from source import types
 
 class Logic(object):
-  
   MAX_LIVES = 3
-  
+
   def __init__(self):
     self._scheme = None
     self._level = None
     self._lives = Logic.MAX_LIVES
     self._diamonds = [0, 0]
     self._animator = animator.Animator()
-  
+
   def _inputmethod(self, func, *args, **kwargs):
     if not self.loaded:
       return
@@ -44,40 +43,38 @@ class Logic(object):
       result = func(*args, **kwargs)
     except events.KyeKilledEvent, event:
       # render lives
-      self._ui.render(False, True, False, False, False)
+      self._ui.render_lives()
       self._handle_die()
     else:
       if result:
         if result & self._animator.RES_FOUND_DIAMOND:
           self._diamonds[0] = self._diamonds[0] + 1
-          # render diamonds
-          self._ui.render(False, False, True, False, False)
+          self._ui.render_diamonds()
           if self._check_win():
             self._handle_win()
         if result & self._animator.RES_FOUND_SIGN:
           row, col = tiles.logic.find_kye(self._level["tiles"])[:-1]
           sign = self._level["signs"][(row, col)]
-          # render signs
-          self._ui.render(False, False, False, False, True)
+          self._ui.render_signs()
           self._ui.display_sign(sign["sign"])
           if sign["once"]:
             del self._level["signs"][(row, col)]
             self._animator.inform(self._level["signs"])
-  
+
   def _start_scheme(self):
     self._lives = Logic.MAX_LIVES
     self._start_level()
-  
+
   def _start_level(self):
     self._level = schema.grab_level(self._scheme)
     self._animator.inform(self._level["signs"])
     self._diamonds = [0, schema.count_diamonds(self._level)]
     self._ui.render()
     self._ui.dialog_box(self._ui.DB_BEGIN, self._level["hint"])
-  
+
   def _check_win(self):
     return self.loaded and self._diamonds[0] == self._diamonds[1]
-  
+
   def _handle_win(self):
     self._ui.render()
     self._ui.dialog_box(self._ui.DB_COMPLETE, self._level["msg_win"])
@@ -87,7 +84,7 @@ class Logic(object):
     else:
       self._ui.dialog_box(self._ui.DB_COMPLETE, self._scheme["msg_win"])
       self.unload_scheme()
-  
+
   def _handle_die(self):
     self._lives = self._lives - 1
     if self._lives == 0:
@@ -98,14 +95,14 @@ class Logic(object):
         self._start_level()
       else:
         self.unload_scheme()
-  
+
   def sync_ui_engine(self, ui):
     self._ui = ui
-  
+
   @property
   def loaded(self):
     return self._level is not None
-  
+
   def load_scheme(self, filename):
     try:
       self._scheme = schema.load(filename)
@@ -117,31 +114,31 @@ class Logic(object):
     else:
       self._animator = animator.Animator()
       self._start_scheme()
-  
+
   def unload_scheme(self):
     self._scheme = None
     self._level = None
     self._lives = Logic.MAX_LIVES
     self._diamonds = [0, 0]
     self._ui.render()
-  
+
   def get_drawing_info(self):
     return (self._level["tiles"], self._lives, self._diamonds,
             self._level["hint"], self._level["signs"])
-  
+
   def cb_timer(self):
     self._inputmethod(self._animator.anim_timer, self._level["tiles"])
-  
+
   def cb_key_up(self):
     self._inputmethod(self._animator.anim_up, self._level["tiles"])
-  
+
   def cb_key_left(self):
     self._inputmethod(self._animator.anim_left, self._level["tiles"])
-  
+
   def cb_key_down(self):
     self._inputmethod(self._animator.anim_down, self._level["tiles"])
-  
+
   def cb_key_right(self):
     self._inputmethod(self._animator.anim_right, self._level["tiles"])
-  
-  
+
+
